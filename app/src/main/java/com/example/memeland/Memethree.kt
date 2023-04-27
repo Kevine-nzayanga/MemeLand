@@ -13,7 +13,7 @@ class Memethree : AppCompatActivity() {
         setContentView(R.layout.activity_memethree)
         bnext4 = findViewById(R.id.bnext4)
         bnext4.setOnClickListener {
-          val intent = Intent(this, Meme4::class.java)
+            val intent = Intent(this, Meme4::class.java)
             startActivity(intent)
         }
         bprev4 = findViewById(R.id.bprev4)
